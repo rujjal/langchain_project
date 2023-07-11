@@ -77,17 +77,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # import os
-
-    # # Clear the cached model files
-    # cached_model_dir = "/Users/rujjalsada/.cache/torch/sentence_transformers/"
-    # if os.path.exists(cached_model_dir):
-    #     os.system(f"rm -rf {cached_model_dir}")
-
-    # # Upgrade sentence_transformers
-    # os.system("pip install --upgrade sentence-transformers")
-
-    # # Set TOKENIZERS_PARALLELISM environment variable
-    # os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
     main()
